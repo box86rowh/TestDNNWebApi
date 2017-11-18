@@ -1,0 +1,32 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="EnhancedContactForm" type="Module" version="00.00.01">
+      <friendlyName>EnhancedContactForm</friendlyName>
+      <description>Jason Candelora EnhancedContactForm module</description>
+      <iconFile>~/Images/icon_extensions_32px.png</iconFile>
+      <owner>
+        <name>Jason Candelora</name>
+        <organization>Jason Candelora</organization>
+        <url>http://www.christoc.com/</url>
+        <email>box86rowh@gmail.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">08.00.00</dependency>
+      </dependencies>
+      
+      <components>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>EnhancedContactForm.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
